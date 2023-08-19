@@ -1,0 +1,37 @@
+.bg-color_dark {
+    background-color: var(--secondaryColor);
+}
+
+.bg-color_light {
+    background-color: var(--primaryColor);
+}
+
+.color_primary {
+    color: var(--primaryColor);
+}
+
+.color_secondary {
+    color: var(--secondaryColor);
+}
+
+.border-color_primary {
+    border-color: var(--primaryColor);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
