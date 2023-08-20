@@ -1,6 +1,7 @@
 import './globals.css'
 import './styles/styles.css'
 import './styles/waves.css'
+import './styles/slot-text.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 

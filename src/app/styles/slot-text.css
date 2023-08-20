@@ -1,0 +1,96 @@
+@keyframes slidingText {
+    0% {
+        transform: translateY(400px);
+        opacity: 0;
+        height: auto;
+        visibility: visible;
+    }
+
+    28% {
+        transform: translateY(-8px);
+        opacity: 1;
+    }
+
+    29% {
+        transform: translateY(5px);
+    }
+
+    30% {
+        transform: translateY(-3px);
+    }
+
+    31% {
+        transform: translateY(2px);
+    }
+
+    32% {
+        transform: translateY(-1px);
+    }
+
+    33% {
+        transform: translateY(0px);
+    }
+
+    40% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateY(-400px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(400px);
+        opacity: 0;
+    }
+}
+
+#animate {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: 200px;
+    height: 1.5em;
+    vertical-align: middle;
+}
+
+div[id^="txtAni"] {
+    top: 2px;
+    position: absolute;
+}
+
+.slideIn1 {
+    animation: slidingText 8s ease-in-out;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.slideIn2 {
+    animation: slidingText 8s ease-in-out 1.6s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.slideIn3 {
+    animation: slidingText 8s ease-in-out 3.3s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.slideIn4 {
+    animation: slidingText 8s ease-in-out 4.9s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.slideIn5 {
+    animation: slidingText 8s ease-in-out 6.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.height_50 {
+    height: 50vh;
+}

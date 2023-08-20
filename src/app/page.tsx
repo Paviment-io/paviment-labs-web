@@ -1,19 +1,23 @@
 import { FC } from 'react';
-import Waves from './components/waves/waves';
 import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
+import Banner from './components/banner/banner';
+import Products from './components/products/products';
 
 const Home: FC = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-color_dark text-white">
+    <div className="flex flex-col min-h-screen bg-color_dark">
       <Navbar />
 
       <main className="flex-grow">
-        <div className='-mt-10'>
-          <Waves />
+        <div>
+          <Banner />
+        </div>
+        <div>
+          <Products />
         </div>
       </main>
-      
+
       <Footer />
     </div>
   );
