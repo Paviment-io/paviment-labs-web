@@ -6,7 +6,7 @@ import Products from './components/products/products';
 
 const Home: FC = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-color_dark">
+    <div className="flex flex-col min-h-screen bg-color_secondary">
       <Navbar />
 
       <main className="flex-grow">
@@ -15,6 +15,9 @@ const Home: FC = () => {
         </div>
         <div>
           <Products />
+        </div>
+        <div>
+          
         </div>
       </main>
 

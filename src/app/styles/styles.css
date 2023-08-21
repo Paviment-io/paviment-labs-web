@@ -1,8 +1,8 @@
-.bg-color_dark {
+.bg-color_secondary {
     background-color: var(--secondaryColor);
 }
 
-.bg-color_light {
+.bg-color_primary {
     background-color: var(--primaryColor);
 }
 

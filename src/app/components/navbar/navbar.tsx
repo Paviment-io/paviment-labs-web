@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Navbar = () => {
     return (
-        <header className="p-6 flex justify-between items-center relative">
+        <header className="p-6 flex justify-between items-center fixed w-screen bg-color_secondary z-10">
         <a href="/">
           <Image
             src="/logo.png"

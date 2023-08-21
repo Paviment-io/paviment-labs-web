@@ -21,10 +21,13 @@ const Banner = () => {
         </div>
         <div className='text-amber-50 text-3xl absolute right-10'>
           Seja uma idéia ou um problema, <br />
-          estamos aqui para te ajudar a chegar do outro lado.
+          <div className='color_primary'>estamos aqui para te ajudar</div>
         </div>
       </div>
       <div className='-mt-24'>
+        <Waves />
+      </div>
+      <div className='-mt-24 rotate-180'>
         <Waves />
       </div>
     </>
