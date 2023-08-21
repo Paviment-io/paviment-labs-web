@@ -36,9 +36,7 @@ const Products = () => {
 
     return (
         <div className="p-16 flex flex-col">
-            <h1 className="text-amber-50 text-5xl text-center mb-16 font-bold">
-                Serviços
-            </h1>
+            <h1>Serviços</h1>
             <div className='flex flex-wrap -m-2 justify-center'>
                 {listOfProducts.map((product, index) => {
                     return <ProductCard key={index} icon={product.icon} title={product.title} text={product.text} />

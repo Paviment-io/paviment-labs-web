@@ -3,6 +3,7 @@ import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
 import Banner from './components/banner/banner';
 import Products from './components/products/products';
+import Contact from './components/contact/contact';
 
 const Home: FC = () => {
   return (
@@ -17,7 +18,7 @@ const Home: FC = () => {
           <Products />
         </div>
         <div>
-          
+          <Contact />
         </div>
       </main>
 
