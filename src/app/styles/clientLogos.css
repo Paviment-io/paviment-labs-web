@@ -1,0 +1,35 @@
+  @keyframes hscSlide {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .clients {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 60px 0;
+    white-space: nowrap;
+    position: relative;
+  }
+
+  .clients:hover .client-logos {
+    animation-play-state: paused;
+  }
+
+  .client-logos {
+    display: flex;
+    flex-direction: row;
+    animation: 30s hscSlide infinite linear;
+    -webkit-animation: 30s hscSlide infinite linear;
+  }
+
+  .client-logos img {
+    width: 200px;
+    height: auto;
+    margin: 0 25px;
+  }

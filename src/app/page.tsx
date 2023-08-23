@@ -4,12 +4,12 @@ import Footer from './components/footer/footer';
 import Banner from './components/banner/banner';
 import Products from './components/products/products';
 import Contact from './components/contact/contact';
+import ClientLogos from './components/clientLogos/clientLogos';
 
 const Home: FC = () => {
   return (
     <div className="flex flex-col min-h-screen bg-color_secondary">
       <Navbar />
-
       <main className="flex-grow">
         <div>
           <Banner />
@@ -18,10 +18,12 @@ const Home: FC = () => {
           <Products />
         </div>
         <div>
+          <ClientLogos />
+        </div>
+        <div>
           <Contact />
         </div>
       </main>
-
       <Footer />
     </div>
   );
