@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 const Navbar = () => {
-  const phoneNumber = '5511985062196';
+  const phoneNumber = '5519981373477';
   const message = 'Olá, gostaria de saber mais informações!';
   const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
