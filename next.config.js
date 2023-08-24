@@ -3,7 +3,6 @@
  */
 const nextConfig = {
   output: 'export',
-  ssetPrefix: process.env.NODE_ENV === 'production' ? '/paviment-labs-web/' : '',
  
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
